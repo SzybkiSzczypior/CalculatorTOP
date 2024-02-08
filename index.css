@@ -1,0 +1,45 @@
+#container {
+    margin: 10vmax;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#table {
+    display: flex;
+    flex-direction: column;
+    width: 15vmax;
+
+
+}
+.tableRow{
+    display: flex;
+    
+}
+.digit {
+   font-size: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    flex: 1;
+    
+    height: 3vmax;
+}
+#display {
+    width: 15vmax;
+    border-style: solid;
+    height: 2vmax;
+    display: flex;
+}
+
+#displayInput {
+    flex: 1;
+    border-style: none;
+    width: 14vmax;
+    font-size: 2vmax;
+}
